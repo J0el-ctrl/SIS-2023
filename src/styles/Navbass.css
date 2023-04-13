@@ -1,0 +1,12 @@
+.nav-link-css {
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+ 
+  }
+  .nav-link-css:hover {
+    background-color: #f3eeec;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  } 

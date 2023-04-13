@@ -1,0 +1,31 @@
+.container-boton-wsp{
+    background-color: #81f177;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 15px;
+    padding: 14px;
+    transition: ease 0.3s;
+    animation: efectowsp 1.2s infinite;
+}
+
+.container-boton-wsp:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton-wsp{
+    width: 80px;
+    transition: ease 1s;
+}
+
+@keyframes efectowsp{
+    0%{
+        box-shadow: 0 0 0 0 rgba(50, 163, 35, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(112, 194, 45, 0.74);
+    }
+} 
